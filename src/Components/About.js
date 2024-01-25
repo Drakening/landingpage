@@ -24,8 +24,13 @@ const About = () => {
                 Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
                 elit. Dolor turpis molestie dui magnis facilisis at fringilla qu
             </p>
+            <div className="about-buttons-container">
+                <button className="secondary-button">Learn more</button>
+                <button className="watch-video-button">
+                    <BsFillPlayCircleFill /> Watch Video
+                </button>
+            </div>
         </div>
-
     </div>
     )
 }
